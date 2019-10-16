@@ -1,0 +1,3 @@
+git clone
+git clone is process of cloning a complete repository to your local machine.
+usage: git clone https://github.com/<username>/<git-repo>.git
