@@ -1,3 +1,17 @@
+useful commands:
+
 git clone
-git clone is process of cloning a complete repository to your local machine.
-usage: git clone https://github.com/<username>/<git-repo>.git
+description: git clone is command to clone or copy a complete repository to your local machine.
+usage: 
+creates a directory <git-repo> in the current directory
+      : git clone https://github.com/<username>/<git-repo>.git .
+creates a directory <git folder name> in the current directory
+      : git clone https://github.com/<username>/<git-repo>.git <git folder name>
+
+
+git pull
+description: Pulls the changes from git repository and updates the code in your local machine.
+usage: git pull
+
+
+git init
