@@ -8,6 +8,12 @@ creates a directory <git-repo> in the current directory
 creates a directory <git folder name> in the current directory
       : git clone https://github.com/<username>/<git-repo>.git <git folder name>
 
+git commit
+description: commits the code from stagging area to remote reopsitory in the local machine
+usage: git commit
+Note: Be careful to add user.email and user.name prior to git commit for the first time to avoid any errors. Try not setting the configs as global,if you set the config global, you will not be able to use two different git accounts. 
+
+git config
 
 git pull
 description: Pulls the changes from git repository and updates the code in your local machine.
@@ -15,3 +21,14 @@ usage: git pull
 
 
 git init
+
+
+git add
+description: add the file(s) to the stagging area before commiting the changes in the local repository. Any changes in a local repository must be put in the stagging area before commit.
+usage:
+add a file to stagging area
+      : git add <path/to/file/filename>
+add all files in the current directory
+      : git add .
+
+
