@@ -1,2 +1,9 @@
 There's no fixed sequence to the use commands. It's all need based, depends on the functionality you want to use/explore.
 But there can be a general sequence, and as well remedies to frequent ambigious situations.
+
+
+git init
+The first thing you want to do is create the git directory if you are going to create a project on your machine.
+
+git clone
+Use to clone a project from git repo to your local machine in case you are working on already existing project.
