@@ -7,3 +7,9 @@ The first thing you want to do is create the git directory if you are going to c
 
 git clone
 Use to clone a project from git repo to your local machine in case you are working on already existing project.
+
+git checkout
+In any git repository, git checkout is used to switch between branches.
+In case there is only one branch available, First create branch with , and then switch branch with git checkout.
+However, you can use git checkout -b <repo name>
+This will allow you to create and switch branch in one go.
