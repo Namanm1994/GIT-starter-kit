@@ -14,6 +14,10 @@ Displays all the current branches in local git directory.
 git branch <branch name>
 Create a remote branch with git branch <branch name>
 
+git pull
+If you choose to resume your work in one of the remote branches. Git checkout to the branch 
+in local repository(if required) and git pull the latest changes made to the branch.
+
 git checkout
 In any git repository, git checkout is used to switch between branches.
 In case there is only one branch available, First create branch with , and then switch branch with git checkout.

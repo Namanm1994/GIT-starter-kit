@@ -15,10 +15,13 @@ Below line of code Opens a commit file. Add commit message and save the file to 
       : git commit
 Below code saves the message.
       : git commit -m "commit message"
-Note: Be careful to add user.email and user.name prior to git commit for the first time to avoid any errors. This is set for each repository or globally(all repos on local machine) 
+Note: Be careful to add user.email and user.name prior to git commit for the first time to avoid any errors.
+This is set for each repository or globally(all repos on local machine) 
       Try not setting the configs as global,if you set the config global, you will not be able to use two different git accounts. 
 
+git branch
 git config
+git diff
 
 git pull
 description: Pulls the changes from git repository and updates the code in your local machine.
