@@ -21,7 +21,10 @@ This is set for each repository or globally(all repos on local machine)
 
 git branch
 description: displays all the remote branches in the local repository
-usage:
+usage: git branch
+
+git branch <branch name>
+description: creates a branch <branch name> from current branch
 
 git config
 git diff
