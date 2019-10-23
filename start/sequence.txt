@@ -23,3 +23,11 @@ In any git repository, git checkout is used to switch between branches.
 In case there is only one branch available, First create branch with , and then switch branch with git checkout.
 However, you can use git checkout -b <repo name>
 This will allow you to create and switch branch in one go.
+
+git diff
+git add
+
+git commit
+Before commit, make sure to add your email and username as configs.
+git commit, opens a commit file, add commit message and save the file to commit
+git push
