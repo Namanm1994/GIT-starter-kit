@@ -20,6 +20,9 @@ This is set for each repository or globally(all repos on local machine)
       Try not setting the configs as global,if you set the config global, you will not be able to use two different git accounts. 
 
 git branch
+description: displays all the remote branches in the local repository
+usage:
+
 git config
 git diff
 
