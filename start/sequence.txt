@@ -25,6 +25,8 @@ However, you can use git checkout -b <repo name>
 This will allow you to create and switch branch in one go.
 
 git diff
+Displays the difference between the last commited code in the local repository and the updated code in thelocal repository.
+
 git add
 
 git commit
