@@ -32,6 +32,10 @@ usage: git config -- <option> <value>
 
 git diff
 
+git fetch
+description:
+usage:
+
 git pull
 description: Pulls the changes from git repository and updates the code in your local machine.
 usage: git pull
@@ -50,3 +54,15 @@ add all files in the current directory
       : git add .
 
 
+git remote
+description: returns the name of the remote.
+             use option -v for details of git repo
+usage:
+git remote/git remote -v
+
+
+git remote set-url
+description: change the git remote url/git remote branch/git remote origin (Check this in .git/config, under remote(origin) -> url)
+usage:
+git remote set-url <remote_name> <remote_url>
+git remote set-url origin https://git-repo/new-repository.git
